@@ -1,17 +1,17 @@
 @font-face {
-  font-family: "Revolution";
-  src: url(../fonts/ProtestRevolution-Regular.ttf);
+  font-family: "Poppins Regular";
+  src: url(../fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
-  font-family: "Riot";
-  src: url(../fonts/ProtestRiot-Regular.ttf);
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
-    font-family: "DancingScript";
-    src: url(../fonts/DancingScript-Regular.ttf);
-  }
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
 
 * {
   margin: 0;
@@ -31,7 +31,7 @@
   --button-saturated-color: rgb(255, 91, 46);
   scroll-behavior: smooth;
   color: white;
-  font-family: "DancingScript";
+  font-family: "Roboto";
   font-size: 24px;
   line-height: 32px;
 }

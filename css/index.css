@@ -58,18 +58,35 @@ h2 {
   text-align: center;
 }
 
-.statistics__item {
+.statistics__item,
+.item-head,
+.item-total {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   gap: 40px;
   height: 100px;
-  background-color: hsla(0, 0%, 0%, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
   padding: 20px;
+  font-weight: bold;
 }
 
-.statistics__item:not(:last-of-type) {
+.statistics__item {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+.item-head,
+.item-total {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.item-head,
+.statistics__item,
+.item-total:not(:last-of-type) {
   margin-bottom: 50px;
 }
 
@@ -95,6 +112,10 @@ h2 {
   width: 40%;
 }
 
+.winner-text {
+  color: rgb(0, 185, 0);
+  font-size: 30px;
+}
 
 /* color: var(--text-color); */
 
