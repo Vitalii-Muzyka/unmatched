@@ -42,3 +42,6 @@ addStatisticsItem("Vitalii", "Annie Christmas", winner.less, "Dr. Jill Trent", "
 
 addStatisticsItem("Vitalii", "Raptors", winner.more, "T. Rex", "Svitlana");
 
+addStatisticsItem("Vitalii", "Dr. Ellie Sattler", winner.less, "Raptors", "Svitlana");
+
+addStatisticsItem("Vitalii", "The Genie", winner.less, "Annie Christmas", "Svitlana");
