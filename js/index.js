@@ -34,6 +34,8 @@ addPlayerItem("vitalli.vs.svitlana.html", "Vitalii", "Svitlana");
 
 addPlayerItem("vitalli.vs.yevhen.html", "Vitalii", "Yevhen");
 
+addPlayerItem("vitalli.vs.oleksandr.html", "Vitalii", "Oleksandr");
+
 function addTotalItem(player, number) {
     let win = "";
     function wins(number) {
@@ -64,3 +66,5 @@ addTotalItem("Svitlana", 5);
 addTotalItem("Vitalii", 1);
 
 addTotalItem("Yevhen", 0);
+
+addTotalItem("Oleksandr", 0);
