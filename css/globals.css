@@ -32,8 +32,8 @@
   scroll-behavior: smooth;
   color: white;
   font-family: "Roboto";
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .container {
@@ -63,6 +63,11 @@ h2 {
 }
 
 @media (min-width: 768px) {
+  :root {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
   h2 {
     font-size: 48px;
     line-height: 52px;

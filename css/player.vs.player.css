@@ -5,10 +5,16 @@
 @import url(footer.css);
 
 .larger-text {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .winner-text {
     color: rgb(0, 185, 0);
     font-size: 30px;
+}
+
+@media (min-width: 768px) {
+    .larger-text {
+        font-size: 30px;
+    }    
 }
