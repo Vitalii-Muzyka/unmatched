@@ -3,3 +3,12 @@
 @import url(header.css);
 @import url(main.css);
 @import url(footer.css);
+
+.larger-text {
+    font-size: 30px;
+}
+
+.winner-text {
+    color: rgb(0, 185, 0);
+    font-size: 30px;
+}

@@ -41,9 +41,30 @@
   margin: auto;
 }
 
+.container__main {
+  max-width: 1000px;
+  margin: auto;
+}
+
 img {
   display: block;
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
 
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+}

@@ -1,0 +1,23 @@
+.animation {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(../images/bg_landing_page.jpg);
+  background-repeat: repeat-y;
+  background-position: 0 0;
+  background-size: 100% auto;
+  animation-name: backgroundloop;
+  animation-iteration-count: infinite;
+  animation-duration: 20010s;
+  animation-timing-function: linear;
+}
+
+@keyframes backgroundloop {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 -1002246px;
+  }
+}

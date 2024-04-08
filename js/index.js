@@ -13,35 +13,54 @@ const winner = {
         </div>`
 };
 
-function addStatisticsItem(player1, hero1, winner, hero2, player2) {
+function addPlayerItem(page, player1, player2) {
     const item = `
-        <div class="statistics__item">
-            <div class="player__name">
-                <p>${player1}</p>
+        <a href="${page}">
+            <div class="statistics__item">
+                <div class="player__name">
+                    <p>${player1}</p>
+                </div>
+                ${winner.swords}
+                <div class="player__name">
+                    <p>${player2}</p>
+                </div>
             </div>
-            <div class="hero__name">
-                <p>${hero1}</p>
-            </div>
-            ${winner}
-            <div class="hero__name">
-                <p>${hero2}</p>
-            </div>
-            <div class="player__name">
-                <p>${player2}</p>
-            </div>
-        </div>`;
+        </a>`;
     const items = document.querySelector(".statistics__items");
     items.insertAdjacentHTML('beforeend', item);
 }
 
-addStatisticsItem("Vitalii", "Robetr Muldoon", winner.less, "Raptors", "Svitlana");
+addPlayerItem("vitalli.vs.svitlana.html", "Vitalii", "Svitlana");
 
-addStatisticsItem("Vitalii", "Golden Bat", winner.less, "Nikola Tesla", "Svitlana");
+addPlayerItem("vitalli.vs.yevhen.html", "Vitalii", "Yevhen");
 
-addStatisticsItem("Vitalii", "Annie Christmas", winner.less, "Dr. Jill Trent", "Svitlana");
+function addTotalItem(player, number) {
+    let win = "";
+    function wins(number) {
+        if (number === 1) {
+            win = "win";
+        } else {
+            win = "wins"; 
+        }
+    }
+    wins(number);
+    const item = `
+        <div class="item-total">
+            <div class="player__name">
+                <p>${player}:</p>
+            </div>
+            <div class="winner">
+            </div>
+            <div class="player__name">
+                <p>${number} ${win}</p>
+            </div>
+        </div>`;
+    const items = document.querySelector(".statistics__items-total");
+    items.insertAdjacentHTML('beforeend', item);
+}
 
-addStatisticsItem("Vitalii", "Raptors", winner.more, "T. Rex", "Svitlana");
+addTotalItem("Svitlana", 5);
 
-addStatisticsItem("Vitalii", "Dr. Ellie Sattler", winner.less, "Raptors", "Svitlana");
+addTotalItem("Vitalii", 1);
 
-addStatisticsItem("Vitalii", "The Genie", winner.less, "Annie Christmas", "Svitlana");
+addTotalItem("Yevhen", 0);

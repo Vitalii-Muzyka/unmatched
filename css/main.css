@@ -1,0 +1,72 @@
+.statistics {
+    padding: 50px 30px;
+}
+
+.statistics__item,
+.item-head,
+.item-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    height: 100px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.item-head,
+.statistics__item,
+.item-total:not(:last-of-type) {
+    margin-bottom: 50px;
+}
+
+.statistics__item {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+.statistics__item:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.item-head,
+.item-total {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.item-head:hover,
+.item-total:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.item-head,
+.statistics__item,
+.item-total:not(:last-of-type) {
+    margin-bottom: 50px;
+}
+
+.player__name,
+.hero__name {
+    width: 40%;
+}
+
+.winner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.img-less,
+.img-more,
+.img-swords {
+    width: 50px;
+}
+
+@media (min-width: 768px) {
+    .statistics {
+        padding: 80px 50px;
+    }
+}

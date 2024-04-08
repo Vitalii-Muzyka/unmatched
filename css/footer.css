@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-image: url(../images/website-footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  padding: 0 30px;
+}
+
+.footer__text {
+  margin-top: 50px;
+  max-width: 300px;
+}
+
+@media (min-width: 500px) {
+  header {
+    height: 370px;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    height: 300px;
+  }
+
+  .footer__text {
+    margin-top: 100px;
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1000px) {
+  header {
+    height: 500px;
+  }
+}

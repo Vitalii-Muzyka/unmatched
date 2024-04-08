@@ -11,59 +11,20 @@
 
 <body>
     <div class="animation">
-        <header>
-            <div class="header__hero container">
-                <div class="header__hero-logo">
-                    <img src="images/logo.png" alt="Unmatched">
-                </div>
-                <div class="header__hero-img">
-                    <img src="images/medusa.png" alt="medusa">
-                </div>
-            </div>
-        </header>
+        <header data-include="header.partial.html"></header>
         <main>
-            <div class="statistics container">
+            <div class="statistics container__main">
                 <h2>Statistics of our games</h2>
-                <div class="item-head">
-                    <div class="player__name">
-                        <p>Player</p>
-                    </div>
-                    <div class="hero__name">
-                        <p>Hero</p>
-                    </div>
-                    <div class="winner">
-                        <img class="img-swords" src="images/swords.png" alt="swords">
-                    </div>
-                    <div class="hero__name">
-                        <p>Hero</p>
-                    </div>
-                    <div class="player__name">
-                        <p>Player</p>
-                    </div>
-                </div>
                 <div class="statistics__items">
                 </div>
                 <h2>Total</h2>
-                <div class="item-total">
-                    <div class="player__name-total">
-                        <p>Vitalii: 1 wins</p>
-                    </div>
-                    <div class="winner">
-                        <img class="img-swords" src="images/swords.png" alt="swords">
-                    </div>
-                    <div class="player__name-total">
-                        <p class="winner-text">Svitlana: 5 wins</p>
-                    </div>
+                <div class="statistics__items-total">
                 </div> 
             </div>
         </main>
-        <footer>
-            <div class="footer__text">
-                <img src="images/footer-text.png" alt="in battle, there are no equals">
-            </div>
-        </footer>
+        <footer data-include="footer.partial.html"></footer>
     </div>
-
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
     <script src="js/index.js"></script>
 </body>
 
