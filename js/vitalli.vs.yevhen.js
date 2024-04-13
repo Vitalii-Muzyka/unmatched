@@ -27,3 +27,5 @@ function addStatisticsItem(hero1, winner, hero2) {
     const items = document.querySelector(".statistics__items");
     items.insertAdjacentHTML('beforeend', item);
 }
+
+addStatisticsItem("Spider-Man", winner.less, "Raptors");
