@@ -36,7 +36,7 @@ addPlayerItem("vitalli.vs.yevhen.html", "Vitalii", "Yevhen");
 
 addPlayerItem("vitalli.vs.oleksandr.html", "Vitalii", "Oleksandr");
 
-addPlayerItem("vitalli-yevhen.vs.svitlana-oleksandr.html", "Vitalii<br>Yevhen", "Oleksandr<br>Svitlana");
+// addPlayerItem("vitalli-yevhen.vs.svitlana-oleksandr.html", "Vitalii<br>Yevhen", "Oleksandr<br>Svitlana");
 
 function addTotalItem(player, number) {
     let win = "";
@@ -63,10 +63,10 @@ function addTotalItem(player, number) {
     items.insertAdjacentHTML('beforeend', item);
 }
 
-addTotalItem("Svitlana", 7);
+addTotalItem("Svitlana", 6);
 
-addTotalItem("Vitalii", 2);
+addTotalItem("Vitalii", 3);
 
 addTotalItem("Yevhen", 2);
 
-addTotalItem("Oleksandr", 1);
+addTotalItem("Oleksandr", 0);
