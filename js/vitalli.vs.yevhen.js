@@ -29,3 +29,12 @@ function addStatisticsItem(hero1, winner, hero2) {
 }
 
 addStatisticsItem("Spider-Man", winner.less, "Raptors");
+
+addStatisticsItem("Doctor Strange", winner.more, "Harry Houdini");
+
+addStatisticsItem("Spider-Man", winner.less, "The Genie");
+
+addStatisticsItem("Achilles", winner.more, "Sun Wukong");
+
+
+

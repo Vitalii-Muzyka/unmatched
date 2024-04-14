@@ -29,3 +29,5 @@ function addStatisticsItem(hero1, winner, hero2) {
 }
 
 addStatisticsItem("Golden Bat<br>Medusa", winner.less, "Bigfoot<br>Nikola Tesla");
+
+addStatisticsItem("Luke Cage<br>Dracula", winner.more, "Dr. Jill Trent<br>Raptors");
