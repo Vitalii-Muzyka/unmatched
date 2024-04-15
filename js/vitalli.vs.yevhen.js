@@ -36,5 +36,12 @@ addStatisticsItem("Spider-Man", winner.less, "The Genie");
 
 addStatisticsItem("Achilles", winner.more, "Sun Wukong");
 
+addStatisticsItem("Bloody Mary", winner.more, "Yennenga");
+
+addStatisticsItem("She-Hulk", winner.more, "Little Red");
+
+addStatisticsItem("Sherlock Holmes", winner.more, "Annie Christmas");
+
+
 
 
