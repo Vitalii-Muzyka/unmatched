@@ -43,3 +43,5 @@ addStatisticsItem("The Genie", winner.less, "Annie Christmas");
 addStatisticsItem("Spider-Man", winner.less, "She-Hulk");
 
 addStatisticsItem("Dr. Jill Trent", winner.less, "Golden Bat");
+
+addStatisticsItem("Beowulf", winner.more, "Bullseye");
