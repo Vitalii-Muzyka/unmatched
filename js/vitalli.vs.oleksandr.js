@@ -28,3 +28,4 @@ function addStatisticsItem(hero1, winner, hero2) {
     items.insertAdjacentHTML('beforeend', item);
 }
 
+addStatisticsItem("Spider-Man", winner.less, "Luke Cage");
