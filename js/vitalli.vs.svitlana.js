@@ -45,3 +45,14 @@ addStatisticsItem("Spider-Man", winner.less, "She-Hulk");
 addStatisticsItem("Dr. Jill Trent", winner.less, "Golden Bat");
 
 addStatisticsItem("Beowulf", winner.more, "Bullseye");
+
+addStatisticsItem("Nikola Tesla", winner.more, "Annie Christmas");
+
+addStatisticsItem("Little Red", winner.less, "Yennenga");
+
+addStatisticsItem("Bigfoot", winner.more, "The Genie");
+
+addStatisticsItem("Spider-Man", winner.less, "Luke Cage");
+
+addStatisticsItem("Achilles", winner.less, "Sherlock Holmes");
+
