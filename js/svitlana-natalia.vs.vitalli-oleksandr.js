@@ -28,6 +28,8 @@ function addStatisticsItem(hero1, winner, hero2) {
     items.insertAdjacentHTML('beforeend', item);
 }
 
-addStatisticsItem("Golden Bat<br>Medusa", winner.less, "Bigfoot<br>Nikola Tesla");
+addStatisticsItem("Spider-Man<br>Harry Houdini", winner.less, "King Arthur<br>Sun Wukong");
 
-addStatisticsItem("Luke Cage<br>Dracula", winner.more, "Dr. Jill Trent<br>Raptors");
+addStatisticsItem("Medusa<br>The Genie", winner.more, "Robin Hood<br>Sherlock Holmes");
+
+addStatisticsItem("Doctor Strange<br>Harry Houdini", winner.less, "Raptors<br>Nikola Tesla");

@@ -56,3 +56,5 @@ addStatisticsItem("Spider-Man", winner.less, "Luke Cage");
 
 addStatisticsItem("Achilles", winner.less, "Sherlock Holmes");
 
+addStatisticsItem("Doctor Strange", winner.less, "Sherlock Holmes");
+
