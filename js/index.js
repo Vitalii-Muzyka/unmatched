@@ -34,9 +34,11 @@ addPlayerItem("vitalli.vs.svitlana.html", "Vitalii", "Svitlana");
 
 addPlayerItem("vitalli.vs.yevhen.html", "Vitalii", "Yevhen");
 
-addPlayerItem("vitalli.vs.oleksandr.html", "Vitalii", "Oleksandr");
+addPlayerItem("vitalli.vs.oleksandr.html", "Vitalii", "Oleksandr L");
 
-addPlayerItem("svitlana-natalia.vs.vitalli-oleksandr.html", "Svitlana<br>Natalia", "Vitalii<br>Oleksandr");
+addPlayerItem("svitlana-natalia.vs.vitalli-oleksandr.html", "Svitlana<br>Natalia", "Vitalii<br>Oleksandr L");
+
+addPlayerItem("vitalli.vs.oleksandr.html", "Vitalii", "Oleksandr V");
 
 function addTotalItem(player, number) {
     let win = "";
@@ -67,8 +69,10 @@ addTotalItem("Svitlana", 12);
 
 addTotalItem("Vitalii", 10);
 
-addTotalItem("Oleksandr", 3);
+addTotalItem("Oleksandr L", 3);
 
 addTotalItem("Yevhen", 2);
 
 addTotalItem("Natalia", 1);
+
+addTotalItem("Oleksandr V", 0);
