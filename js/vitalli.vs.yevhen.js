@@ -42,6 +42,8 @@ addStatisticsItem("She-Hulk", winner.more, "Little Red");
 
 addStatisticsItem("Sherlock Holmes", winner.more, "Annie Christmas");
 
+addStatisticsItem("King Arthur", winner.less, "Bigfoot");
+
 
 
 
