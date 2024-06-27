@@ -28,6 +28,6 @@ function addStatisticsItem(hero1, winner, hero2) {
     items.insertAdjacentHTML('beforeend', item);
 }
 
-addStatisticsItem("Spider-Man", winner.less, "Luke Cage");
+addStatisticsItem("Ms. Marvel", winner.less, "Shakespeare");
 
-addStatisticsItem("Beowulf", winner.more, "Little Red");
+addStatisticsItem("Oda Nobunaga", winner.more, "Hamlet");
