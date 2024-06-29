@@ -44,6 +44,10 @@ addStatisticsItem("Sherlock Holmes", winner.more, "Annie Christmas");
 
 addStatisticsItem("King Arthur", winner.less, "Bigfoot");
 
+addStatisticsItem("Squirrel Girl", winner.less, "Bruce Lee");
 
+addStatisticsItem("Moon Knight", winner.more, "Nikola Tesla");
 
+addStatisticsItem("Winter Soldier", winner.less, "Medusa");
 
+addStatisticsItem("Hamlet", winner.more, "Titania");

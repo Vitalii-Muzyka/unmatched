@@ -31,3 +31,7 @@ function addStatisticsItem(hero1, winner, hero2) {
 addStatisticsItem("Ms. Marvel", winner.less, "Shakespeare");
 
 addStatisticsItem("Oda Nobunaga", winner.more, "Hamlet");
+
+addStatisticsItem("Willow", winner.more, "Angel");
+
+addStatisticsItem("Deadpool", winner.more, "Spike");
