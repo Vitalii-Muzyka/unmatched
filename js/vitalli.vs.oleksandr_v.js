@@ -35,3 +35,5 @@ addStatisticsItem("Oda Nobunaga", winner.more, "Hamlet");
 addStatisticsItem("Willow", winner.more, "Angel");
 
 addStatisticsItem("Deadpool", winner.more, "Spike");
+
+addStatisticsItem("Cloak and Dagger", winner.less, "Winter Soldier");

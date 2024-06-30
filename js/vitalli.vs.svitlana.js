@@ -58,3 +58,6 @@ addStatisticsItem("Achilles", winner.less, "Sherlock Holmes");
 
 addStatisticsItem("Doctor Strange", winner.less, "Sherlock Holmes");
 
+addStatisticsItem("Black Widow", winner.less, "Black Panther");
+
+addStatisticsItem("Black Panther", winner.less, "Winter Soldier");
