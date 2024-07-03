@@ -37,3 +37,7 @@ addStatisticsItem("Willow", winner.more, "Angel");
 addStatisticsItem("Deadpool", winner.more, "Spike");
 
 addStatisticsItem("Cloak and Dagger", winner.less, "Winter Soldier");
+
+addStatisticsItem("Bruce Lee", winner.less, "Buffy");
+
+addStatisticsItem("The Wayward Sisters", winner.less, "Titania");

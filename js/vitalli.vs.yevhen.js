@@ -51,3 +51,5 @@ addStatisticsItem("Moon Knight", winner.more, "Nikola Tesla");
 addStatisticsItem("Winter Soldier", winner.less, "Medusa");
 
 addStatisticsItem("Hamlet", winner.more, "Titania");
+
+addStatisticsItem("T. Rex", winner.more, "Tomoe Gozen");
