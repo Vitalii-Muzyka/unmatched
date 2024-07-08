@@ -41,3 +41,12 @@ addStatisticsItem("Cloak and Dagger", winner.less, "Winter Soldier");
 addStatisticsItem("Bruce Lee", winner.less, "Buffy");
 
 addStatisticsItem("The Wayward Sisters", winner.less, "Titania");
+
+addStatisticsItem("Sun Wukong", winner.less, "Nikola Tesla");
+
+addStatisticsItem("Black Panther", winner.more, "Dr. Jill Trent");
+
+addStatisticsItem("Tomoe Gozen", winner.more, "Golden Bat");
+
+addStatisticsItem("Titania", winner.less, "Black Widow");
+

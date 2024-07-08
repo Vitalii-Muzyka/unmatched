@@ -53,3 +53,5 @@ addStatisticsItem("Winter Soldier", winner.less, "Medusa");
 addStatisticsItem("Hamlet", winner.more, "Titania");
 
 addStatisticsItem("T. Rex", winner.more, "Tomoe Gozen");
+
+addStatisticsItem("Cloak and Dagger", winner.less, "The Wayward Sisters");

@@ -63,3 +63,9 @@ addStatisticsItem("Black Widow", winner.less, "Black Panther");
 addStatisticsItem("Black Panther", winner.less, "Winter Soldier");
 
 addStatisticsItem("Winter Soldier", winner.more, "Black Widow");
+
+addStatisticsItem("Golden Bat", winner.more, "Harry Houdini");
+
+addStatisticsItem("Sun Wukong", winner.less, "Sherlock Holmes");
+
+addStatisticsItem("Elektra", winner.more, "Luke Cage");
