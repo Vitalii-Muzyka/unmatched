@@ -50,3 +50,5 @@ addStatisticsItem("Tomoe Gozen", winner.more, "Golden Bat");
 
 addStatisticsItem("Titania", winner.less, "Black Widow");
 
+addStatisticsItem("Spike", winner.less, "Squirrel Girl");
+
