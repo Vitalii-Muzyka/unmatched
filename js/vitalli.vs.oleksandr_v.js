@@ -52,3 +52,8 @@ addStatisticsItem("Titania", winner.less, "Black Widow");
 
 addStatisticsItem("Spike", winner.less, "Squirrel Girl");
 
+addStatisticsItem("Angel", winner.less, "Cloak and Dagge");
+
+addStatisticsItem("Buffy", winner.less, "Little Red");
+
+addStatisticsItem("Oda Nobunaga", winner.less, "Tomoe Gozen");

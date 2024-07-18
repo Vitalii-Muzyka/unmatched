@@ -75,4 +75,4 @@ addTotalItem("Yevhen", 6);
 
 addTotalItem("Natalia", 1);
 
-addTotalItem("Oleksandr V", 7);
+addTotalItem("Oleksandr V", 10);
