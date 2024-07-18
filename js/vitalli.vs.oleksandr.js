@@ -31,3 +31,7 @@ function addStatisticsItem(hero1, winner, hero2) {
 addStatisticsItem("Spider-Man", winner.less, "Luke Cage");
 
 addStatisticsItem("Beowulf", winner.more, "Little Red");
+
+addStatisticsItem("Black Widow", winner.less, "Black Panther");
+
+addStatisticsItem("Spider-Man", winner.more, "Winter Soldier");

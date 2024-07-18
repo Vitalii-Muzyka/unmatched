@@ -65,14 +65,14 @@ function addTotalItem(player, number) {
     items.insertAdjacentHTML('beforeend', item);
 }
 
-addTotalItem("Svitlana", 15);
+addTotalItem("Svitlana", 16);
 
-addTotalItem("Vitalii", 23);
+addTotalItem("Vitalii", 25);
 
-addTotalItem("Oleksandr L", 3);
+addTotalItem("Oleksandr L", 5);
 
 addTotalItem("Yevhen", 6);
 
-addTotalItem("Natalia", 1);
+addTotalItem("Natalia", 2);
 
 addTotalItem("Oleksandr V", 10);

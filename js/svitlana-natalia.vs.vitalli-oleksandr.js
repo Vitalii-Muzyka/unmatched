@@ -33,3 +33,7 @@ addStatisticsItem("Spider-Man<br>Harry Houdini", winner.less, "King Arthur<br>Su
 addStatisticsItem("Medusa<br>The Genie", winner.more, "Robin Hood<br>Sherlock Holmes");
 
 addStatisticsItem("Doctor Strange<br>Harry Houdini", winner.less, "Raptors<br>Nikola Tesla");
+
+addStatisticsItem("Golden Bat<br>Yennenga", winner.more, "Black Panther<br>Winter Soldier");
+
+addStatisticsItem("She-Hulk<br>Achilles", winner.less, "Doctor Strange<br>Bigfoot");
