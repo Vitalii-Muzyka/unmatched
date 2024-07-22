@@ -67,7 +67,7 @@ function addTotalItem(player, number) {
 
 addTotalItem("Svitlana", 16);
 
-addTotalItem("Vitalii", 25);
+addTotalItem("Vitalii", 26);
 
 addTotalItem("Oleksandr L", 5);
 
@@ -75,4 +75,4 @@ addTotalItem("Yevhen", 6);
 
 addTotalItem("Natalia", 2);
 
-addTotalItem("Oleksandr V", 10);
+addTotalItem("Oleksandr V", 14);

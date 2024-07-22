@@ -57,3 +57,13 @@ addStatisticsItem("Angel", winner.less, "Cloak and Dagge");
 addStatisticsItem("Buffy", winner.less, "Little Red");
 
 addStatisticsItem("Oda Nobunaga", winner.less, "Tomoe Gozen");
+
+addStatisticsItem("Titania", winner.less, "Nikola Tesla");
+
+addStatisticsItem("The Genie", winner.more, "Shakespeare");
+
+addStatisticsItem("Tomoe Gozen", winner.less, "Achilles");
+
+addStatisticsItem("T.Rex", winner.less, "The Genie");
+
+addStatisticsItem("The Genie", winner.less, " Daredevil");
