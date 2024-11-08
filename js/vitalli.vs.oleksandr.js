@@ -1,32 +1,11 @@
-const winner = {
-    swords: `
-        <div class="winner">
-            <img class="img-swords" src="images/swords.png" alt="swords">
-        </div>`,
-    more: `
-        <div class="winner">
-            <img class="img-more" src="images/more.png" alt="more">
-        </div>`,
-    less: `
-        <div class="winner">
-            <img class="img-less" src="images/less.png" alt="less">
-        </div>`
-};
+import { winner } from "./modules/winner.js";
+import { addHeadItem } from "./modules/add_head_item.js";
+import { addStatisticsItem } from "./modules/add_statistics_item.js";
+import { addTotalItem } from "./modules/add_total_item.js";
 
-function addStatisticsItem(hero1, winner, hero2) {
-    const item = `
-        <div class="statistics__item">
-            <div class="hero__name">
-                <p>${hero1}</p>
-            </div>
-            ${winner}
-            <div class="hero__name">
-                <p>${hero2}</p>
-            </div>
-        </div>`;
-    const items = document.querySelector(".statistics__items");
-    items.insertAdjacentHTML('beforeend', item);
-}
+addHeadItem("Vitalii", winner.swords, "Oleksandr L");
+
+addTotalItem(2, winner.swords, 2);
 
 addStatisticsItem("Spider-Man", winner.less, "Luke Cage");
 
